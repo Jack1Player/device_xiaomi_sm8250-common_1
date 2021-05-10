@@ -4,3 +4,7 @@ ro.config.vc_call_vol_steps=14
 
 # Use Vulkan backend for Skia UI rendering
 debug.hwui.renderer=skiavk
+
+# Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
